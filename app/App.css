@@ -1,0 +1,35 @@
+.app {
+	width: 390px;
+	margin: 0 auto;
+}
+
+.board {
+	width: 390px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.row {
+	clear: both;
+	box-sizing: border-box;
+}
+
+.square {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #f2f2f2;
+	margin: 1px 1px 0 0;
+	box-sizing: border-box;
+	float: left;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.square:hover {
+	cursor: pointer;
+	background-color: #ffffcc;
+}
